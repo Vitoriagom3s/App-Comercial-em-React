@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 📱 Fashion Store – App Mobile E-commerce
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de e-commerce desenvolvido com React Native (Expo), com sistema de login, listagem de produtos por categoria, favoritos, carrinho de compras e simulação de pagamento via PIX e Cartão.
 
-## Get started
+Este projeto foi desenvolvido como parte da avaliação prática da disciplina de Desenvolvimento Mobile.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Funcionalidades
 
-2. Start the app
+✅ Tela de Login com validação  
+✅ Listagem de produtos com categorias (Feminino, Masculino, Acessórios, Tênis)  
+✅ Tela de detalhes do produto (nome, imagem, descrição, preço)  
+✅ Seleção de tamanho (PP, P, M, G, GG)  
+✅ Controle de quantidade  
+✅ Sistema de favoritos ❤️  
+✅ Carrinho com cálculo automático do total  
+✅ Remoção de produtos do carrinho  
+✅ Simulação de pagamento via:
+- PIX (com geração de QR Code)
+- Cartão (formulário de dados)
+✅ Armazenamento local com AsyncStorage  
+✅ Logout funcional  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠 Tecnologias Utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- TypeScript
+- AsyncStorage
+- React Hooks (useState, useEffect)
+- FlatList
+- Modal
+- QRCode SVG
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
+📸 Prints do Aplicativo
 
-## Get a fresh project
 
-When you're ready, run:
+
+## 📂 Estrutura do Projeto
+
+O projeto foi estruturado seguindo boas práticas de organização de código para aplicações mobile.
+
+---
+
+## ▶ Como executar o projeto
+
+### 1️⃣ Instalar dependências
 
 ```bash
-npm run reset-project
-```
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npx expo start
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Depois disso, basta escanear o QR Code com o aplicativo Expo Go no celular.
