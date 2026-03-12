@@ -1,58 +1,144 @@
-# 📱 Fashion Store – App Mobile E-commerce
+## 📱 Fashion Store – Mobile E-commerce App
 
-Aplicativo mobile de e-commerce desenvolvido com React Native (Expo), com sistema de login, listagem de produtos por categoria, favoritos, carrinho de compras e simulação de pagamento via PIX e Cartão.
+Aplicativo mobile de e-commerce de moda desenvolvido com React Native utilizando Expo, com funcionalidades completas de navegação entre produtos, carrinho de compras, favoritos e simulação de pagamento.
+
+O objetivo do projeto foi aplicar conceitos de desenvolvimento mobile, gerenciamento de estado, armazenamento local e criação de interfaces interativas.
 
 Este projeto foi desenvolvido como parte da avaliação prática da disciplina de Desenvolvimento Mobile.
 
----
-
 ## 🚀 Funcionalidades
 
-✅ Tela de Login com validação  
-✅ Listagem de produtos com categorias (Feminino, Masculino, Acessórios, Tênis)  
-✅ Tela de detalhes do produto (nome, imagem, descrição, preço)  
-✅ Seleção de tamanho (PP, P, M, G, GG)  
-✅ Controle de quantidade  
-✅ Sistema de favoritos ❤️  
-✅ Carrinho com cálculo automático do total  
-✅ Remoção de produtos do carrinho  
-✅ Simulação de pagamento via:
-- PIX (com geração de QR Code)
-- Cartão (formulário de dados)
-✅ Armazenamento local com AsyncStorage  
-✅ Logout funcional  
+O aplicativo possui as seguintes funcionalidades:
 
----
+🔐 Autenticação
 
-## 🛠 Tecnologias Utilizadas
+- Tela de Login com validação
+
+- Acesso controlado ao aplicativo
+
+🛍 Catálogo de Produtos
+
+- Listagem de produtos por categoria:
+
+- Feminino
+
+- Masculino
+
+- Acessórios
+
+
+## 📄 Detalhes do Produto
+
+- Nome do produto
+
+- Imagem
+
+- Descrição
+
+- Preço
+
+- Seleção de tamanho (PP, P, M, G, GG)
+
+- Controle de quantidade
+
+❤️ Sistema de Favoritos
+
+- Possibilidade de marcar produtos como favoritos
+
+-  Acesso rápido aos itens preferidos
+
+🛒 Carrinho de Compras
+
+- Adição de produtos ao carrinho
+
+- Remoção de produtos
+
+- Atualização automática do valor total da compra
+
+💳 Simulação de Pagamento
+
+- O aplicativo simula duas formas de pagamento:
+
+- PIX
+
+- Geração de QR Code para pagamento
+
+- Cartão
+
+- Formulário para inserção de dados do cartão
+
+💾 Armazenamento Local
+
+- Persistência de dados utilizando AsyncStorage
+
+- Mantém informações do usuário e carrinho
+
+🛠 Tecnologias Utilizadas
+
+- As principais tecnologias utilizadas no desenvolvimento foram:
 
 - React Native
+
 - Expo
+
 - TypeScript
+
 - AsyncStorage
-- React Hooks (useState, useEffect)
-- FlatList
-- Modal
-- QRCode SVG
 
----
-📸 Prints do Aplicativo
+- React Hooks
+
+- useState
+
+- useEffect
+
+- FlatList para renderização de listas
+
+- Modal para interação com o usuário
+
+- QRCode SVG para geração de QR Code de pagamento
 
 
+## 📸 Prints do Aplicativo
 
-## 📂 Estrutura do Projeto
 
-O projeto foi estruturado seguindo boas práticas de organização de código para aplicações mobile.
+## ▶ Como Executar o Projeto
 
----
+Siga os passos abaixo para rodar o aplicativo localmente.
 
-## ▶ Como executar o projeto
+1️⃣ Clonar o repositório
 
-### 1️⃣ Instalar dependências
+      git clone https://github.com/seu-usuario/fashion-store.git
 
-```bash
-npm install
+2️⃣ Entrar na pasta do projeto
 
-npx expo start
+    cd fashion-store
 
-Depois disso, basta escanear o QR Code com o aplicativo Expo Go no celular.
+3️⃣ Instalar dependências
+
+    npm install
+
+4️⃣ Iniciar o projeto
+
+    npx expo start
+
+5️⃣ Executar no celular
+
+- Instale o aplicativo Expo Go no seu smartphone
+
+- Escaneie o QR Code gerado no terminal ou navegador
+
+- O aplicativo abrirá automaticamente
+
+## 🎯 Objetivo do Projeto
+
+Este projeto teve como objetivo praticar conceitos fundamentais de desenvolvimento mobile, incluindo:
+
+Navegação entre telas
+
+Gerenciamento de estado
+
+Persistência de dados
+
+Estruturação de aplicações React Native
+
+Simulação de fluxo de compra em um e-commerce
