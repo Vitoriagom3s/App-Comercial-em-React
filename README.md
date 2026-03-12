@@ -97,8 +97,11 @@ O aplicativo possui as seguintes funcionalidades:
 
 - QRCode SVG para geração de QR Code de pagamento
 
+## 🎥 Demonstração do App
 
-## 📸 Prints do Aplicativo
+Clique na imagem para assistir:
+
+[![Demo do App](https://img.youtube.com/vi/l1nyFmya-sI/maxresdefault.jpg)](https://youtube.com/shorts/l1nyFmya-sI)
 
 
 ## ▶ Como Executar o Projeto
