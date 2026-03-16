@@ -145,3 +145,9 @@ Persistência de dados
 Estruturação de aplicações React Native
 
 Simulação de fluxo de compra em um e-commerce
+
+
+## Contato
+Para dúvidas ou sugestões, entre em contato:
+
+viviamorimgomes08@gmail.com
